@@ -183,6 +183,29 @@ function TagScreen() {
                     <TagBtn3 content={"#Disney"} />
                 </View>
             </View>
+            <View style={{
+                ...testBorderStyle,
+                flex: 1,
+                justifyContent: "center",
+                alignItems: "center",
+            }}>
+                <TouchableOpacity style={{
+                    ...testBorderStyle,
+                    height: 50,
+                    width: 200,
+                    borderRadius: 100,
+                    justifyContent: "center",
+                    alignItems: "center",
+                    backgroundColor: '#122F77'
+                }}
+                    onPress={() => alert("pressed")}>
+                    <Text style={{
+                        fontSize: 20,
+                        color: "white",
+                        fontWeight: "bold"
+                    }}>Done</Text>
+                </TouchableOpacity>
+            </View>
         </View>
     );
 }

@@ -3,7 +3,8 @@
 ## Install
 
 ```shell
-# Inside the "my-app" directory
+git clone https://github.com/xj-m/my-app
+cd my-app
 npm install --global expo-cli
 npm install
 expo start
@@ -14,7 +15,7 @@ expo start
 #  › Press e to send a link to your phone with email.
 ```
 
-I recommend you to download "Expo app" then scan the QR code using your phone
+I recommend to download "Expo app" then scan the QR code using your phone
 
 If there's any problem, please refer to <https://docs.expo.io/get-started/installation/>
 
